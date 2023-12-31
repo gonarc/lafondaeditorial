@@ -76,7 +76,7 @@ h3 {
   margin-bottom: 0px;
   font-size: 40px;
   font-weight: 800;
-  background: radial-gradient(#30CFD6, #1e8388);
+  background: radial-gradient(#C0BBAF, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -134,10 +134,10 @@ p,
   margin-bottom: 50px;
 }
 .cta_primera_pagina {
-  background: rgb(30,131,136);
-  background: linear-gradient(122deg, rgba(30,131,136,1) 0%, rgba(48,207,214,1) 100%);
+  background: rgb(52,51,49);
+  background: linear-gradient(90deg, rgba(52,51,49,1) 0%, rgba(129,126,120,1) 35%, rgba(192,187,175,1) 100%);
   padding:16px;
-  border: solid 1px #30CFD6 ;
+  border: solid 1px #C0BBAF ;
   border-radius:8px;
   text-decoration: none;
   color: white;
@@ -157,8 +157,8 @@ p,
   margin-top: 50px;
 }
 .cta_tercera_pagina{
-  background: rgb(30,131,136);
-  background: linear-gradient(122deg, rgba(30,131,136,1) 0%, rgba(48,207,214,1) 100%);
+  background: rgb(52,51,49);
+  background: linear-gradient(90deg, rgba(52,51,49,1) 0%, rgba(129,126,120,1) 35%, rgba(192,187,175,1) 100%);
   padding:25px;
   border-radius:8px;
   text-decoration: none;
@@ -166,7 +166,7 @@ p,
   font-weight: 500;
   text-align: center;
   font-size:21px;
-  box-shadow: 0px 0px 25px #30CFD6;
+  box-shadow: 0px 0px 25px #C0BBAF;
   animation: moveButton 0.5s infinite alternate;
   
 }
@@ -180,9 +180,9 @@ p,
   }
 }
 #boton_cursos {
-  border: solid 1px #30CFD6 ;
+  border: solid 1px #C0BBAF ;
   background: white;
-  color: #30CFD6;
+  color: #C0BBAF;
   font-weight: 500;
   margin-left: 16px;
 }
@@ -204,7 +204,7 @@ p,
   margin-bottom: 30px;
   font-size: 21px;
   font-weight: 800;
-  background: radial-gradient(#30CFD6, #1e8388);
+  background: radial-gradient(#C0BBAF, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -221,7 +221,7 @@ p,
   font-weight: 800;
   margin: 0px 100px;
   margin-bottom: 30px;
-  background: radial-gradient(#30CFD6, #1e8388);
+  background: radial-gradient(#8b8b8b, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -244,7 +244,7 @@ p,
 #tercera_seccion h2 {
   font-size: 40px;
   font-weight: 800;
-  background: radial-gradient(#30CFD6, #1e8388);
+  background: radial-gradient(#8b8b8b, #303030);
   margin: 0px 100px;
   margin-bottom: 30px;
 
@@ -288,7 +288,7 @@ p,
   margin-left: 0px;
   margin-bottom: 30px;
   text-align: start;
-  background: radial-gradient(#30CFD6, #1e8388);
+  background: radial-gradient(#8b8b8b, #303030);
 
 
   -webkit-text-fill-color: transparent;
@@ -318,7 +318,7 @@ p,
   margin: 60px 50px;
   margin-bottom: 25px;
   font-weight: 800;
-  background: radial-gradient(#30CFD6, #1e8388);
+  background: radial-gradient(#C0BBAF, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -346,9 +346,9 @@ p,
   text-decoration: none;
   margin-top: 16px;
   margin-bottom: 16px;
-  background: rgb(30,131,136);
-  background: linear-gradient(122deg, rgba(30,131,136,1) 0%, rgba(48,207,214,1) 100%);
-  border: solid 1px #30CFD6 ;
+  background: rgb(52,51,49);
+  background: linear-gradient(90deg, rgba(52,51,49,1) 0%, rgba(129,126,120,1) 35%, rgba(192,187,175,1) 100%);
+  border: solid 1px #C0BBAF ;
   border-radius: 8px;
 }
 
@@ -359,7 +359,7 @@ p,
 }
 
 .tarjeta_quinta_seccion {
-  border: solid #30CFD6 1px;
+  border: solid #C0BBAF 1px;
   border-radius: 8px;
   display: flex;
   width: 40%;
@@ -382,7 +382,7 @@ p,
   font-size: 30px;
   margin: 16px 0px;
   font-weight: 800;
-  background: radial-gradient(#30CFD6, #1e8388);
+  background: radial-gradient(#8b8b8b, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -398,7 +398,7 @@ p,
   margin: 60px 50px;
   margin-bottom: 25px;
   font-weight: 800;
-  background: radial-gradient(#30CFD6, #1e8388);
+  background: radial-gradient(#C0BBAF, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -462,7 +462,7 @@ p,
 }
 .seccion_bonus h2 {
   font-size: 50px;
-  background: radial-gradient(#30CFD6, #1e8388);
+  background: radial-gradient(#C0BBAF, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -504,7 +504,7 @@ p,
   margin: 60px 50px;
   margin-bottom: 25px;
   font-weight: 800;
-  background: radial-gradient(#30CFD6, #1e8388);
+  background: radial-gradient(#C0BBAF, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -536,7 +536,7 @@ p,
 
 #container_todos_servicios h3 {
   text-align: center;
-  background: radial-gradient(#30CFD6, #0000009f);
+  background: radial-gradient(#C0BBAF, #0000009f);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -573,7 +573,7 @@ p,
   align-items: center;
   justify-content: center;
   width: 100%;
-  border: solid 1px #30CFD6;
+  border: solid 1px #C0BBAF;
 }
 #cta1_octava_pagina {
   margin: auto;
@@ -587,7 +587,7 @@ p,
   margin-top: 0px;
   font-size: 40px;
   font-weight: 800;
-  background: radial-gradient(#30CFD6, #1e8388);
+  background: radial-gradient(#C0BBAF, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -618,7 +618,7 @@ p,
   font-weight: 800;
   margin-top: 0px;
   margin-bottom: 32px;
-  background: radial-gradient(#30CFD6, #1e8388);
+  background: radial-gradient(#C0BBAF, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -682,19 +682,19 @@ p,
 
 /*HOVERS*/
 .div_menu a:hover{
-  color: #30CFD6;
+  color: #C0BBAF;
   transition: 0.2s all;
 }
 #cta_menu:hover{
   background: white;
-  color: #30CFD6;
+  color: #C0BBAF;
   font-weight: 500;
   transition: 0.5s all;
 }
 .cta_primera_pagina:hover{
-  border: solid 1px #30CFD6 ;
+  border: solid 1px #C0BBAF ;
   background: white;
-  color: #30CFD6;
+  color: #C0BBAF;
   font-weight: 500;
   transition: 0.5s all;
 }
@@ -713,7 +713,7 @@ p,
 
 }
 .cta_quinta_pagina:hover{
-  border: solid 1px #30CFD6 ;
+  border: solid 1px #C0BBAF ;
   background: white;
   color: #30CFD6;
   font-weight: 500;
@@ -778,7 +778,7 @@ p,
     text-decoration: none;
     font-size: 21px;
     font-weight: 600;
-    background: radial-gradient(#30CFD6, #1e8388);
+    background: radial-gradient(#8b8b8b, #303030);
 
 
     -webkit-text-fill-color: transparent;
@@ -828,7 +828,7 @@ p,
   }
   .logo_responsive{
     display:flex;
-    width:20em;
+    width:5em;
     margin: auto;
   }
 
@@ -838,7 +838,7 @@ p,
   #imagen_responsive_primera_seccion {
     width: 100%;
     border-radius: 8px;
-    border: solid 2px #30CFD6;
+    border: solid 2px #C0BBAF;
   }
   .container_imagen_responsive_primera_pagina {
     display: flex;
@@ -852,8 +852,8 @@ p,
     justify-content: center;
   }
   .cta_primera_pagina {
-    background: rgb(30,131,136);
-    background: linear-gradient(122deg, rgba(30,131,136,1) 0%, rgba(48,207,214,1) 100%);
+    background: rgb(52,51,49);
+    background: linear-gradient(90deg, rgba(52,51,49,1) 0%, rgba(129,126,120,1) 35%, rgba(192,187,175,1) 100%);
     padding:16px;
     border-radius:8px;
     text-decoration: none;
@@ -870,8 +870,8 @@ p,
     border: none;
   }
   .cta_tercera_pagina{
-    background: rgb(30,131,136);
-    background: linear-gradient(122deg, rgba(30,131,136,1) 0%, rgba(48,207,214,1) 100%);
+    background: rgb(52,51,49);
+    background: linear-gradient(90deg, rgba(52,51,49,1) 0%, rgba(129,126,120,1) 35%, rgba(192,187,175,1) 100%);
     border-radius:8px;
     text-decoration: none;
     color: white;
@@ -892,14 +892,14 @@ p,
   }
   #primera_seccion h1 {
     width: 100%;
-    font-size: 28px;
+    font-size:25px;
     text-align: center;
     margin:25px 0px;
     margin-bottom: 12.5px;
   }
   .textos_Primera_seccion h2 {
     text-align: center;
-    margin: 25px 8px;
+    margin: 25px 16px;
     margin-top: 12.5px;
     font-size: 16px;
     font-weight: 500;
