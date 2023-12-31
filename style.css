@@ -182,7 +182,7 @@ p,
 #boton_cursos {
   border: solid 1px #C0BBAF ;
   background: white;
-  color: #C0BBAF;
+  color: #797569;
   font-weight: 500;
   margin-left: 16px;
 }
@@ -907,7 +907,8 @@ p,
   .textos_Primera_seccion {
     width: 100%;
     margin: 0px;
-    margin-top: 25px;
+    margin-top: 12.5px;
+    margin-bottom:25px;
   }
   .textos_Primera_seccion p {
     text-align: center;
@@ -933,6 +934,7 @@ p,
 
   #segunda_seccion h2 {
     margin: 0px;
+    margin-top: 25px;
     margin-bottom:12.5px;
     font-size: 28px;
   }
@@ -986,6 +988,7 @@ p,
   }
   #subtitulo_quinta_seccion {
     margin: 25px 8px;
+    margin-top: 50px;
     margin-bottom: 0px;
     font-size: 28px;
   }
