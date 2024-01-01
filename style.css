@@ -375,6 +375,16 @@ p,
   padding: 8px;
   background-color: #f3f3f3;
 }
+.titulo_tarjeta{
+  font-size:16px;
+  margin: 12.5px 16px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  background: radial-gradient(#C0BBAF, #303030);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 .texto_tarjeta p {
   margin: 0px 16px;
 }
@@ -944,7 +954,7 @@ p,
   #segunda_seccion h2 {
     margin: 0px 16px;
     margin-bottom: 25px;
-    font-size: 28px;
+    font-size: 32px;
   }
   #segunda_seccion p {
     margin: 0px 16px;
@@ -999,7 +1009,7 @@ p,
     margin: 50px 16px;
     margin-top: 50px;
     margin-bottom:12.5px;
-    font-size: 28px;
+    font-size: 32px;
   }
   #parrafo_quinta_seccion {
     margin: 12.5px 16px;
@@ -1052,7 +1062,7 @@ p,
   }
   #sexta_seccion h2 {
     margin: 0px;
-    font-size: 28px;
+    font-size: 32px;
   }
   #sexta_seccion p {
     margin: 0px 0px;
@@ -1095,7 +1105,7 @@ p,
   }
   .seccion_bonus h2 {
     margin: 0px;
-    font-size:40px;
+    font-size:32px;
     text-align: center;
   }
 .div_bonus{
