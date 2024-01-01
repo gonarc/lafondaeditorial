@@ -889,11 +889,10 @@ p,
 
   #primera_seccion {
     height: 100%;
+    margin: 0px;
     flex-direction: column;
     background-color: #f0f0f0;
     padding: 0px 0px;
-    padding-top: 0px;
-    margin-bottom:12.5px;
   }
   #primera_seccion h1 {
     width: 100%;
@@ -913,7 +912,7 @@ p,
     width: 100%;
     margin: 0px;
     margin-top: 12.5px;
-    margin-bottom:25px;
+    margin-bottom:50px;
   }
   .textos_Primera_seccion p {
     text-align: center;
@@ -935,12 +934,15 @@ p,
     width: 18%;
     margin: 0px;
   }
-
+  #segunda_seccion{
+    background-color: #F0F0F0;
+    padding-bottom:50px;
+    margin-bottom: 0px;
+  }
 
   #segunda_seccion h2 {
-    margin: 0px;
-    margin-top: 25px;
-    margin-bottom:12.5px;
+    margin: 0px 16px;
+    margin-bottom: 25px;
     font-size: 28px;
   }
   #segunda_seccion p {
@@ -962,8 +964,8 @@ p,
     font-weight: 500;
   }
   #tercera_seccion h2 {
-    margin:50px 0px;
-    margin-bottom:12.5px;
+    margin: 50px 16px;
+    margin-bottom: 25px;
     font-size: 28px;
   }
   #cuarta_seccion {
@@ -973,8 +975,9 @@ p,
     padding:50px 0px;
   }
   #cuarta_seccion h2 {
+    margin: 50px 16px;
+    margin-bottom: 25px;
     font-size: 28px;
-    margin: 25px 0px;
     text-align: center;
   }
   #cuarta_seccion p {
@@ -992,13 +995,13 @@ p,
     margin-bottom: 25px;
   }
   #subtitulo_quinta_seccion {
-    margin: 25px 8px;
+    margin: 50px 16px;
     margin-top: 50px;
-    margin-bottom: 0px;
+    margin-bottom:12.5px;
     font-size: 28px;
   }
   #parrafo_quinta_seccion {
-    margin: 12.5px 8px;
+    margin: 12.5px 16px;
     margin-bottom: 25px;
   }
   #container_tarjetas {
@@ -1039,6 +1042,7 @@ p,
   }
   #container_tarjetas img {
     margin: auto;
+    border-radius: 16px;
   }
   #sexta_seccion{
     margin-bottom:41px;
@@ -1097,7 +1101,7 @@ p,
     margin-bottom: 25px;
   }
   #septima_seccion h2 {
-    margin: 50px 8px;
+    margin: 50px 16px;
     margin-bottom: 25px;
     font-size: 28px;
   }
