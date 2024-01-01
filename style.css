@@ -462,7 +462,7 @@ p,
 }
 .seccion_bonus h2 {
   font-size: 50px;
-  background: radial-gradient(#C0BBAF, #303030);
+  background: radial-gradient(#C0BBAF, #7c7c7c);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -658,6 +658,7 @@ p,
   justify-content: center;
   padding: 16px;
   background-color: black;
+  margin-top: 50px;
 }
 .contactos {
   margin: auto;
@@ -715,7 +716,7 @@ p,
 .cta_quinta_pagina:hover{
   border: solid 1px #C0BBAF ;
   background: white;
-  color: #30CFD6;
+  color: #C0BBAF;
   font-weight: 500;
   transition: 0.5s all;
 }
@@ -1079,9 +1080,20 @@ p,
     padding: 50px 8px;
     margin-bottom:0px;
   }
+  #cta_tercera_pagina{
+    background-color: none;
+    background: none;
+    border: none;
+  }
+  .foto_subscripcion{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width:16rem;
+  }
   .seccion_bonus h2 {
     margin: 0px;
-    font-size:50px;
+    font-size:28px;
     text-align: center;
   }
 .div_bonus{
@@ -1090,11 +1102,12 @@ p,
   justify-content: center;
 }
 .texto_parrafo_2_2 {
-  font-size: 25px;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: 500;
   color: white;
   text-align: center;
 }
+
 
 
   #septima_seccion{
