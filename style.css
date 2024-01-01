@@ -758,7 +758,7 @@ p,
     width: 38px;
     height: 35px;
     margin-left: 15px;
-    top: -30px;
+    top: -45px;
     margin-top: -13px;
     opacity: 0;
     transition: ease-in-out 1s;
@@ -790,15 +790,20 @@ p,
     justify-content: start;
     align-items: center;
     width: 100%;
-    height: 55px;
+    height: 80px;
     background-color: rgb(0, 0, 0);
   }
   .icon-nav i {
-    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
   }
   .icon-nav i #menu1 {
-    margin-top: 3px;
+    position: absolute;
     width:35px;
+    margin:16px;
     transition: ease-in-out 0.5s;
   }
 
@@ -828,7 +833,7 @@ p,
   }
   .logo_responsive{
     display:flex;
-    width:5em;
+    width:4em;
     margin: auto;
   }
 
