@@ -17,6 +17,8 @@ h3 {
   background-color: black;
 }
 .menu img {
+  width: 12.5rem;
+  margin: 12px;
   margin-left: 50px;
 }
 .div_menu {
@@ -66,8 +68,6 @@ h3 {
 }
 #primera_seccion {
   display: flex;
-  height: 77vh;
-  margin-bottom: 5vh;
 }
 .container_imagen_responsive_primera_pagina {
   display: none;
@@ -128,7 +128,9 @@ p,
 }
 #banner img {
   width: 35rem;
+  height: 27rem;
   border-radius: 8px;
+  border: solid 1px #818181c2 ;
 }
 #containerBotones {
   display: flex;
@@ -379,6 +381,7 @@ p,
   justify-content: space-between;
   text-align: center;
   padding: 8px;
+  margin: 16px;
   background-color: #f3f3f3;
 }
 .titulo_tarjeta{
@@ -1049,6 +1052,7 @@ p,
     padding: 16px 0px;
     width: 90%;
     margin: auto;
+    margin-top: 50px;
     margin-bottom: 12.5px;
   }
   #tarjeta2 {
