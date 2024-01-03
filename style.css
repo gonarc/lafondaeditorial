@@ -1095,7 +1095,7 @@ p,
     font-weight: 500;
   }
   .container_testimonio{
-    margin:25px;
+    margin:auto;
   }
   #container_testimonios_foto {
     flex-direction: column;
