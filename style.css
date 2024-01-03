@@ -758,7 +758,33 @@ p,
  }
  
 
-
+ #testimonio1{
+  height:21rem;
+ }
+#testimonio2{
+  height:20rem;
+ }
+#testimonio3{
+ height:17rem;
+}
+#testimonio4{
+  height:12rem;
+ }
+ #testimonio5{
+  height:14rem;
+ }
+ #testimonio6{
+  height:12rem;
+ }
+ #testimonio7{
+  height:30rem;
+ }
+ #testimonio8{
+  height:8rem;
+ }
+ #testimonio9{
+  height:22rem;
+ }
 
 
 
@@ -1236,4 +1262,8 @@ p,
   .copy{
     margin: 0px 8px;
   }
+ 
+
+
+
   }
