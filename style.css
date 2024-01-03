@@ -463,6 +463,7 @@ p,
   height: 345px;
   margin: 16px;
   border-radius:8px;
+  object-fit:contain;
 
 }
 
