@@ -426,7 +426,7 @@ p,
 #container_testimonios_foto {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin: 50px 16px;
 }
