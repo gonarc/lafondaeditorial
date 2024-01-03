@@ -461,7 +461,7 @@ p,
 .container_testimonio img {
   width: 345px;
   height: 345px;
-  margin: auto;
+  margin: 16px;
   border-radius:8px;
 
 }
