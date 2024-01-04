@@ -25,8 +25,8 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 40%;
-  margin-right: 5%;
+  width: 50%;
+  margin: auto;
 }
 
 .div_menu a {
@@ -68,6 +68,7 @@ h3 {
 }
 #primera_seccion {
   display: flex;
+  align-items: center;
 }
 .container_imagen_responsive_primera_pagina {
   display: none;
@@ -84,7 +85,7 @@ h3 {
   -webkit-background-clip: text;
 }
 .logo_responsive{
-  width: 3.5rem;
+  width: 12.5rem;
   margin: 4px;
 }
 .textos_Primera_seccion {
@@ -93,10 +94,11 @@ h3 {
   margin-left: 50px;
 }
 .textos_Primera_seccion h2 {
-  margin: 24px 0px;
+  margin: 25px 0px;
   text-align: start;
   font-weight: 500;
   font-size: 18px;
+  margin-top:0px;
   color: #818181;
 }
 .textos_Primera_seccion p {
@@ -107,8 +109,7 @@ h3 {
 }
 
 #primera_seccion h1 {
-  margin: 50px 0px;
-  margin-bottom: 20px;
+  margin: 12.5px 0px;
 }
 
 h2,
@@ -802,6 +803,9 @@ p,
   }
   #containerBotones_tercera_pagina{
     margin-top: 25px;
+  }
+  #logo_horizontal{
+    display: none;
   }
   .container-nav-r {
     display: flex;
