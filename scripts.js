@@ -1,4 +1,37 @@
+// Establecer la fecha y hora límite para la oferta
+const ofertaFechaLimite = new Date("2024-01-15T23:59:59");
 
+function actualizarTemporizador() {
+  const ahora = new Date();
+  const tiempoRestante = ofertaFechaLimite - ahora;
+
+  if (tiempoRestante <= 0) {
+    document.getElementById(
+      "numero_temporizador_horas,numero_temporizador_minutos,numero_temporizador_segundos"
+    ).innerHTML = "La oferta ha expirado.";
+  } else {
+    const dias = Math.floor(tiempoRestante / (1000 * 60 * 60 * 24));
+    const horas = Math.floor(
+      (tiempoRestante % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    const minutos = Math.floor(
+      (tiempoRestante % (1000 * 60 * 60)) / (1000 * 60)
+    );
+    const segundos = Math.floor((tiempoRestante % (1000 * 60)) / 1000);
+
+    document.getElementById(
+      "numero_temporizador_segundos"
+    ).innerHTML = `${segundos}`;
+    document.getElementById("numero_temporizador_horas").innerHTML = `${horas}`;
+    document.getElementById(
+      "numero_temporizador_minutos"
+    ).innerHTML = `${minutos}`;
+    document.getElementById("numero_temporizador_dias").innerHTML = `${dias}`;
+  }
+}
+
+// Actualizar el temporizador cada segundo
+setInterval(actualizarTemporizador, 1000);
 document.addEventListener('DOMContentLoaded', function () {
   var menuHamburguesa = document.getElementById("id-icon-nav");
   var abrirMenu = document.getElementById("id-container-nav-r");

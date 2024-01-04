@@ -9,6 +9,64 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
+/* Estilos para el contenedor de la barra de temporizador */
+.cointainer_barra_temporizador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: red;
+}
+
+/* Estilos para el texto en la barra de temporizador */
+.texto_barra_temporizador {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+/* Estilos para encabezados en la barra de temporizador */
+.texto_barra_temporizador h3 {
+  text-align: center;
+  margin: 0;
+}
+/* Estilos para el contenedor del temporizador */
+.div_temporizador {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para los cuadrados en el temporizador */
+.cuadrado_temporizador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:16px;
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  padding: 8px;
+}
+
+/* Estilos para encabezados en los cuadrados del temporizador */
+.cuadrado_temporizador h4 {
+  margin: 0px;
+  font-size: 18px;
+  color: red;
+}
+
+/* Estilos para números en el temporizador */
+#numero_temporizador_dias,
+#numero_temporizador_horas,
+#numero_temporizador_minutos,
+#numero_temporizador_segundos {
+  font-size: 25px;
+  color: red;
+  margin: 0px;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -52,19 +110,16 @@ h3 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50px;
-  background: rgb(203, 203, 203);
-  background: linear-gradient(
-    180deg,
-    rgba(203, 203, 203, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background-color:black;
+  margin: 50px 0px;
+  padding: 50px 0px;
 }
 .barra_oferta p {
   font-weight: 600;
-  margin: 0;
+  margin: 12.5px;
   text-align: center;
-  font-size: 12.5px;
+  font-size:40px;
+  color: white;
 }
 #primera_seccion {
   display: flex;
@@ -817,6 +872,62 @@ p,
     left: -600px;
     padding-right: 8px;
   }
+  /* Estilos para el contenedor de la barra de temporizador */
+.cointainer_barra_temporizador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: red;
+}
+
+/* Estilos para el texto en la barra de temporizador */
+.texto_barra_temporizador {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+/* Estilos para encabezados en la barra de temporizador */
+.texto_barra_temporizador h3 {
+  text-align: center;
+  margin: 0;
+}
+/* Estilos para el contenedor del temporizador */
+.div_temporizador {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para los cuadrados en el temporizador */
+.cuadrado_temporizador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:2px;
+  height: 5rem;
+  background-color: white;
+  padding: 0px;
+}
+
+/* Estilos para encabezados en los cuadrados del temporizador */
+.cuadrado_temporizador h4 {
+  margin: 0px;
+  font-size: 1rem;
+  color: red;
+}
+
+/* Estilos para números en el temporizador */
+#numero_temporizador_dias,
+#numero_temporizador_horas,
+#numero_temporizador_minutos,
+#numero_temporizador_segundos {
+  font-size: 25px;
+  color: red;
+  margin: 0px;
+}
   .container-nav-r #menu2 {
     position: relative;
     width: 38px;
@@ -886,15 +997,7 @@ p,
   .div_menu_responsive a {
     display: none;
   }
-  .barra_oferta{
-    display: none;
-    background: white;
-  }
-  .barra_oferta p {
-    background-color: white;
-    width: 80%;
-    font-size: 14px;
-  }
+
   .logo_responsive{
     display:flex;
     width:4em;
@@ -947,7 +1050,7 @@ p,
     font-weight: 500;
     text-align: center;
     margin:0px;
-    font-size:14px;
+    font-size:1.5rem;
 
   }
 
