@@ -3,6 +3,22 @@ body {
   padding: 0px;
   font-family: "Montserrat", sans-serif;
 }
+/* Agrega estilos según tus preferencias */
+.ofertaExpirada{
+  padding:16px;
+  background: radial-gradient(#79766f, #303030);
+  border-radius: 16px;
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+  width:100%;
+}
+.titulo_oferta_expirada{
+  font-size:30px;
+  color: white;
+  margin: 0px;
+}
+
 body h1,
 h2,
 h3 {
@@ -43,7 +59,7 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin:16px;
+  margin: 16px;
   width: 90px;
   height: 90px;
   background-color: white;
@@ -110,16 +126,19 @@ h3 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color:black;
+  background-color: black;
   margin: 50px 0px;
-  padding: 50px 0px;
+  padding: 25px 0px;
 }
 .barra_oferta p {
   font-weight: 600;
   margin: 12.5px;
   text-align: center;
-  font-size:40px;
+  font-size:18px;
   color: white;
+}
+#titulo_evento_gratuito{
+  font-size: 40px;
 }
 #primera_seccion {
   display: flex;
@@ -134,12 +153,12 @@ h3 {
   margin-bottom: 0px;
   font-size: 40px;
   font-weight: 800;
-  background: radial-gradient(#C0BBAF, #303030);
+  background: radial-gradient(#c0bbaf, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-.logo_responsive{
+.logo_responsive {
   width: 12.5rem;
   margin: 4px;
 }
@@ -153,7 +172,7 @@ h3 {
   text-align: start;
   font-weight: 500;
   font-size: 18px;
-  margin-top:0px;
+  margin-top: 0px;
   color: #818181;
 }
 .textos_Primera_seccion p {
@@ -186,7 +205,7 @@ p,
   width: 35rem;
   height: 27rem;
   border-radius: 8px;
-  border: solid 1px #818181c2 ;
+  border: solid 1px #818181c2;
 }
 #containerBotones {
   display: flex;
@@ -196,41 +215,50 @@ p,
   margin-bottom: 50px;
 }
 .cta_primera_pagina {
-  background: rgb(52,51,49);
-  background: linear-gradient(90deg, rgba(52,51,49,1) 0%, rgba(129,126,120,1) 35%, rgba(192,187,175,1) 100%);
-  padding:16px;
-  border: solid 1px #C0BBAF ;
-  border-radius:8px;
+  background: rgb(52, 51, 49);
+  background: linear-gradient(
+    90deg,
+    rgba(52, 51, 49, 1) 0%,
+    rgba(129, 126, 120, 1) 35%,
+    rgba(192, 187, 175, 1) 100%
+  );
+  padding: 16px;
+  border: solid 1px #c0bbaf;
+  border-radius: 8px;
   text-decoration: none;
   color: white;
   font-weight: 500;
   text-align: center;
-  font-size:14px;
+  font-size: 14px;
 }
 #cta_menu {
   padding: 12px;
   border: none;
 }
-#containerBotones_tercera_pagina{
+#containerBotones_tercera_pagina {
   display: flex;
   width: 100%;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
-.cta_tercera_pagina{
-  background: rgb(52,51,49);
-  background: linear-gradient(90deg, rgba(52,51,49,1) 0%, rgba(129,126,120,1) 35%, rgba(192,187,175,1) 100%);
-  padding:25px;
-  border-radius:8px;
+.cta_tercera_pagina {
+  background: rgb(52, 51, 49);
+  background: linear-gradient(
+    90deg,
+    rgba(52, 51, 49, 1) 0%,
+    rgba(129, 126, 120, 1) 35%,
+    rgba(192, 187, 175, 1) 100%
+  );
+  padding: 25px;
+  border-radius: 8px;
   text-decoration: none;
   color: white;
   font-weight: 500;
   text-align: center;
-  font-size:21px;
-  box-shadow: 0px 0px 25px #C0BBAF;
+  font-size: 21px;
+  box-shadow: 0px 0px 25px #c0bbaf;
   animation: moveButton 0.5s infinite alternate;
-  
 }
 /* Define la animación de movimiento */
 @keyframes moveButton {
@@ -242,7 +270,7 @@ p,
   }
 }
 #boton_cursos {
-  border: solid 1px #C0BBAF ;
+  border: solid 1px #c0bbaf;
   background: white;
   color: #797569;
   font-weight: 500;
@@ -266,7 +294,7 @@ p,
   margin-bottom: 30px;
   font-size: 21px;
   font-weight: 800;
-  background: radial-gradient(#C0BBAF, #303030);
+  background: radial-gradient(#c0bbaf, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -352,7 +380,6 @@ p,
   text-align: start;
   background: radial-gradient(#8b8b8b, #303030);
 
-
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -380,7 +407,7 @@ p,
   margin: 60px 50px;
   margin-bottom: 25px;
   font-weight: 800;
-  background: radial-gradient(#C0BBAF, #303030);
+  background: radial-gradient(#c0bbaf, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -397,9 +424,8 @@ p,
   flex-wrap: wrap;
   margin: 0px 50px;
 }
-.parrafo_tarjeta{
+.parrafo_tarjeta {
   font-weight: 500;
-
 }
 .cta_quinta_pagina {
   margin: auto;
@@ -408,9 +434,14 @@ p,
   text-decoration: none;
   margin-top: 16px;
   margin-bottom: 16px;
-  background: rgb(52,51,49);
-  background: linear-gradient(90deg, rgba(52,51,49,1) 0%, rgba(129,126,120,1) 35%, rgba(192,187,175,1) 100%);
-  border: solid 1px #C0BBAF ;
+  background: rgb(52, 51, 49);
+  background: linear-gradient(
+    90deg,
+    rgba(52, 51, 49, 1) 0%,
+    rgba(129, 126, 120, 1) 35%,
+    rgba(192, 187, 175, 1) 100%
+  );
+  border: solid 1px #c0bbaf;
   border-radius: 8px;
 }
 
@@ -421,7 +452,7 @@ p,
 }
 
 .tarjeta_quinta_seccion {
-  border: solid #C0BBAF 1px;
+  border: solid #c0bbaf 1px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -440,12 +471,12 @@ p,
   margin: 16px;
   background-color: #f3f3f3;
 }
-.titulo_tarjeta{
-  font-size:16px;
+.titulo_tarjeta {
+  font-size: 16px;
   margin: 12.5px 16px;
   margin-bottom: 25px;
   font-weight: 500;
-  background: radial-gradient(#C0BBAF, #303030);
+  background: radial-gradient(#c0bbaf, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -473,7 +504,7 @@ p,
   margin: 60px 50px;
   margin-bottom: 25px;
   font-weight: 800;
-  background: radial-gradient(#C0BBAF, #303030);
+  background: radial-gradient(#c0bbaf, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -498,7 +529,7 @@ p,
   left: 0;
   width: 100%;
   height: 99%;
-  background-color:rgba(255, 255, 255, 0.904);
+  background-color: rgba(255, 255, 255, 0.904);
   backdrop-filter: blur(1.17rem); /* Fondo semitransparente */
   padding: 20px;
   box-sizing: border-box;
@@ -506,9 +537,8 @@ p,
   opacity: 0;
   transition: opacity 0.3s ease;
   margin: 0px;
-  border-radius:8px;
+  border-radius: 8px;
   z-index: 1; /* Asegura que el párrafo esté encima de la imagen */
-  
 }
 
 .container_testimonio:hover .testimonio {
@@ -519,42 +549,39 @@ p,
   width: 345px;
   height: 345px;
   margin: 12.5px;
-  border-radius:8px;
-  object-fit:contain;
-
+  border-radius: 8px;
+  object-fit: contain;
 }
-
 
 /* SECCION BONUS*/
 .seccion_bonus {
-  background: rgb(30,131,136);
+  background: rgb(30, 131, 136);
   background: linear-gradient(122deg, rgb(0, 0, 0) 0%, rgb(34, 34, 34) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 60px 50px;
-  padding-top:40px;
+  padding-top: 40px;
 }
-.div_bonus{
+.div_bonus {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 .seccion_bonus h2 {
   font-size: 50px;
-  background: radial-gradient(#C0BBAF, #7c7c7c);
+  background: radial-gradient(#c0bbaf, #7c7c7c);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   margin: 0px 50px;
   margin-bottom: 50px;
 }
-.foto_suscripcion{
+.foto_suscripcion {
   width: 20rem;
   margin: auto;
-  margin-top:0px;
+  margin-top: 0px;
   margin-bottom: 25px;
-
 }
 .texto_parrafo_1 {
   font-weight: 300;
@@ -593,7 +620,7 @@ p,
   margin: 60px 50px;
   margin-bottom: 25px;
   font-weight: 800;
-  background: radial-gradient(#C0BBAF, #303030);
+  background: radial-gradient(#c0bbaf, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -625,7 +652,7 @@ p,
 
 #container_todos_servicios h3 {
   text-align: center;
-  background: radial-gradient(#C0BBAF, #0000009f);
+  background: radial-gradient(#c0bbaf, #0000009f);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -638,7 +665,7 @@ p,
   margin-bottom: 60px;
   padding: 60px 50px;
 }
-.cta_octava_pagina{
+.cta_octava_pagina {
   border: none;
 }
 #container_calendario_boton {
@@ -647,22 +674,20 @@ p,
   align-items: center;
   flex-direction: column;
 }
-.containerBotones_octava_pagina{
+.containerBotones_octava_pagina {
   margin: 0px;
   justify-content: center;
   align-items: center;
-
 }
-#containerBotones_calendario{
-  margin-top:50px;
-
+#containerBotones_calendario {
+  margin-top: 50px;
 }
 #calendario {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  border: solid 1px #C0BBAF;
+  border: solid 1px #c0bbaf;
 }
 #cta1_octava_pagina {
   margin: auto;
@@ -676,7 +701,7 @@ p,
   margin-top: 0px;
   font-size: 40px;
   font-weight: 800;
-  background: radial-gradient(#C0BBAF, #303030);
+  background: radial-gradient(#c0bbaf, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -707,7 +732,7 @@ p,
   font-weight: 800;
   margin-top: 0px;
   margin-bottom: 32px;
-  background: radial-gradient(#C0BBAF, #303030);
+  background: radial-gradient(#c0bbaf, #303030);
 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -728,11 +753,11 @@ p,
   border-radius: 8px;
   box-shadow: 1px 2px 10px 1px;
 }
-.boton_pregunta{
+.boton_pregunta {
   display: flex;
 }
-.ver_mas{
-  cursor:pointer;
+.ver_mas {
+  cursor: pointer;
   margin: 16px;
   margin-left: 8px;
 }
@@ -752,8 +777,8 @@ p,
 .contactos {
   margin: auto;
   margin-top: 25px;
-  margin-bottom:25px;
-  height:100px;
+  margin-bottom: 25px;
+  height: 100px;
 }
 #menu_footer {
   margin: auto;
@@ -768,27 +793,25 @@ p,
   color: white;
 }
 
-
-
 /*HOVERS*/
-.div_menu a:hover{
-  color: #C0BBAF;
+.div_menu a:hover {
+  color: #c0bbaf;
   transition: 0.2s all;
 }
-#cta_menu:hover{
+#cta_menu:hover {
   background: white;
-  color: #C0BBAF;
+  color: #c0bbaf;
   font-weight: 500;
   transition: 0.5s all;
 }
-.cta_primera_pagina:hover{
-  border: solid 1px #C0BBAF ;
+.cta_primera_pagina:hover {
+  border: solid 1px #c0bbaf;
   background: white;
-  color: #C0BBAF;
+  color: #c0bbaf;
   font-weight: 500;
   transition: 0.5s all;
 }
-#boton_cursos:hover{
+#boton_cursos:hover {
   background: rgba(203, 203, 203, 0.418);
   background: linear-gradient(
     180deg,
@@ -796,70 +819,59 @@ p,
     rgba(255, 255, 255, 1) 100%
   );
   transition: 0.5s all;
-  
 }
-.pregunta:hover{
+.pregunta:hover {
   transition: 0.5s all;
-
 }
-.cta_quinta_pagina:hover{
-  border: solid 1px #C0BBAF ;
+.cta_quinta_pagina:hover {
+  border: solid 1px #c0bbaf;
   background: white;
-  color: #C0BBAF;
+  color: #c0bbaf;
   font-weight: 500;
   transition: 0.5s all;
 }
-.cta_octava_pagina:hover{
+.cta_octava_pagina:hover {
   border: none;
- }
- 
-
- #testimonio1{
-  height:21rem;
- }
-#testimonio2{
-  height:20rem;
- }
-#testimonio3{
- height:17rem;
 }
-#testimonio4{
-  height:12rem;
- }
- #testimonio5{
-  height:14rem;
- }
- #testimonio6{
-  height:12rem;
- }
- #testimonio7{
-  height:30rem;
- }
- #testimonio8{
-  height:8rem;
- }
- #testimonio9{
-  height:22rem;
- }
 
-
-
-
-
-
+#testimonio1 {
+  height: 21rem;
+}
+#testimonio2 {
+  height: 20rem;
+}
+#testimonio3 {
+  height: 17rem;
+}
+#testimonio4 {
+  height: 12rem;
+}
+#testimonio5 {
+  height: 14rem;
+}
+#testimonio6 {
+  height: 12rem;
+}
+#testimonio7 {
+  height: 30rem;
+}
+#testimonio8 {
+  height: 8rem;
+}
+#testimonio9 {
+  height: 22rem;
+}
 
 /* RESPONSIVE*/
-
-
 
 @media only screen and (max-width: 1000px) {
   .menu {
     display: none;
   }
-  #containerBotones_tercera_pagina{
+  #containerBotones_tercera_pagina {
     margin-top: 25px;
   }
-  #logo_horizontal{
+  #logo_horizontal {
     display: none;
   }
   .container-nav-r {
@@ -867,67 +879,67 @@ p,
     flex-direction: column;
     transition: all 0.2s;
     position: absolute;
-    background-color:rgba(255, 255, 255, 0.904);
+    background-color: rgba(255, 255, 255, 0.904);
     backdrop-filter: blur(1.17rem);
     left: -600px;
     padding-right: 8px;
   }
   /* Estilos para el contenedor de la barra de temporizador */
-.cointainer_barra_temporizador {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-color: red;
-}
+  .cointainer_barra_temporizador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+  }
 
-/* Estilos para el texto en la barra de temporizador */
-.texto_barra_temporizador {
-  display: flex;
-  flex-direction: column;
-  padding: 16px;
-}
+  /* Estilos para el texto en la barra de temporizador */
+  .texto_barra_temporizador {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
 
-/* Estilos para encabezados en la barra de temporizador */
-.texto_barra_temporizador h3 {
-  text-align: center;
-  margin: 0;
-}
-/* Estilos para el contenedor del temporizador */
-.div_temporizador {
-  display: flex;
-  align-items: center;
-}
+  /* Estilos para encabezados en la barra de temporizador */
+  .texto_barra_temporizador h3 {
+    text-align: center;
+    margin: 0;
+  }
+  /* Estilos para el contenedor del temporizador */
+  .div_temporizador {
+    display: flex;
+    align-items: center;
+  }
 
-/* Estilos para los cuadrados en el temporizador */
-.cuadrado_temporizador {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin:2px;
-  height: 5rem;
-  background-color: white;
-  padding: 0px;
-}
+  /* Estilos para los cuadrados en el temporizador */
+  .cuadrado_temporizador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2px;
+    height: 5rem;
+    background-color: white;
+    padding: 0px;
+  }
 
-/* Estilos para encabezados en los cuadrados del temporizador */
-.cuadrado_temporizador h4 {
-  margin: 0px;
-  font-size: 1rem;
-  color: red;
-}
+  /* Estilos para encabezados en los cuadrados del temporizador */
+  .cuadrado_temporizador h4 {
+    margin: 0px;
+    font-size: 1rem;
+    color: red;
+  }
 
-/* Estilos para números en el temporizador */
-#numero_temporizador_dias,
-#numero_temporizador_horas,
-#numero_temporizador_minutos,
-#numero_temporizador_segundos {
-  font-size: 25px;
-  color: red;
-  margin: 0px;
-}
+  /* Estilos para números en el temporizador */
+  #numero_temporizador_dias,
+  #numero_temporizador_horas,
+  #numero_temporizador_minutos,
+  #numero_temporizador_segundos {
+    font-size: 25px;
+    color: red;
+    margin: 0px;
+  }
   .container-nav-r #menu2 {
     position: relative;
     width: 38px;
@@ -955,7 +967,6 @@ p,
     font-weight: 600;
     background: radial-gradient(#8b8b8b, #303030);
 
-
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
@@ -973,17 +984,13 @@ p,
     align-items: center;
     justify-content: space-between;
     width: 100%;
-
   }
   .icon-nav i #menu1 {
     position: absolute;
-    width:35px;
-    margin:16px;
+    width: 35px;
+    margin: 16px;
     transition: ease-in-out 0.5s;
   }
-
-
-
 
   .menu_responsive {
     display: flex;
@@ -998,9 +1005,9 @@ p,
     display: none;
   }
 
-  .logo_responsive{
-    display:flex;
-    width:4em;
+  .logo_responsive {
+    display: flex;
+    width: 4em;
     margin: auto;
   }
 
@@ -1010,7 +1017,7 @@ p,
   #imagen_responsive_primera_seccion {
     width: 100%;
     border-radius: 8px;
-    border: solid 2px #C0BBAF;
+    border: solid 2px #c0bbaf;
   }
   .container_imagen_responsive_primera_pagina {
     display: flex;
@@ -1024,34 +1031,42 @@ p,
     justify-content: center;
   }
   .cta_primera_pagina {
-    background: rgb(52,51,49);
-    background: linear-gradient(90deg, rgba(52,51,49,1) 0%, rgba(129,126,120,1) 35%, rgba(192,187,175,1) 100%);
-    padding:16px;
-    border-radius:8px;
+    background: rgb(52, 51, 49);
+    background: linear-gradient(
+      90deg,
+      rgba(52, 51, 49, 1) 0%,
+      rgba(129, 126, 120, 1) 35%,
+      rgba(192, 187, 175, 1) 100%
+    );
+    padding: 16px;
+    border-radius: 8px;
     text-decoration: none;
     color: white;
     font-weight: 500;
     text-align: center;
     margin: 0px 4px;
-    font-size:14px;
-
+    font-size: 14px;
   }
-  .cta_primera_pagina_responsive{
+  .cta_primera_pagina_responsive {
     padding: 8px;
     margin-bottom: 25px;
     border: none;
   }
-  .cta_tercera_pagina{
-    background: rgb(52,51,49);
-    background: linear-gradient(90deg, rgba(52,51,49,1) 0%, rgba(129,126,120,1) 35%, rgba(192,187,175,1) 100%);
-    border-radius:8px;
+  .cta_tercera_pagina {
+    background: rgb(52, 51, 49);
+    background: linear-gradient(
+      90deg,
+      rgba(52, 51, 49, 1) 0%,
+      rgba(129, 126, 120, 1) 35%,
+      rgba(192, 187, 175, 1) 100%
+    );
+    border-radius: 8px;
     text-decoration: none;
     color: white;
     font-weight: 500;
     text-align: center;
-    margin:0px;
-    font-size:1.5rem;
-
+    margin: 0px;
+    font-size: 1.5rem;
   }
 
   #primera_seccion {
@@ -1063,9 +1078,9 @@ p,
   }
   #primera_seccion h1 {
     width: 100%;
-    font-size:25px;
+    font-size: 25px;
     text-align: center;
-    margin:25px 0px;
+    margin: 25px 0px;
     margin-bottom: 12.5px;
   }
   .textos_Primera_seccion h2 {
@@ -1079,7 +1094,7 @@ p,
     width: 100%;
     margin: 0px;
     margin-top: 12.5px;
-    margin-bottom:50px;
+    margin-bottom: 50px;
   }
   .textos_Primera_seccion p {
     text-align: center;
@@ -1089,20 +1104,20 @@ p,
   }
   .aparece_en {
     margin: 0px;
-    padding:50px 8px;
+    padding: 50px 8px;
     padding-top: 0px;
   }
   #parrafo_aparece_en {
     margin-bottom: 25px;
-    font-size:12px;
+    font-size: 12px;
     font-weight: 500;
   }
   .aparece_en img {
     width: 18%;
     margin: 0px;
   }
-  #segunda_seccion{
-    background-color: #F0F0F0;
+  #segunda_seccion {
+    background-color: #f0f0f0;
     padding: 50px 0px;
     margin-bottom: 0px;
   }
@@ -1115,19 +1130,19 @@ p,
   #segunda_seccion p {
     margin: 0px 16px;
     text-align: center;
-    font-size:18px;
-    line-height:30px;
+    font-size: 18px;
+    line-height: 30px;
     font-weight: 500;
   }
 
-  #tercera_seccion{
-    margin-bottom:50px;
+  #tercera_seccion {
+    margin-bottom: 50px;
   }
   #tercera_seccion p {
-    margin:0px 16px;
+    margin: 0px 16px;
     text-align: center;
-    font-size:18px;
-    line-height:30px;
+    font-size: 18px;
+    line-height: 30px;
     font-weight: 500;
   }
   #tercera_seccion h2 {
@@ -1139,7 +1154,7 @@ p,
     flex-direction: column;
     height: 100%;
     margin-bottom: 25px;
-    padding:50px 0px;
+    padding: 50px 0px;
   }
   #cuarta_seccion h2 {
     margin: 50px 16px;
@@ -1157,14 +1172,13 @@ p,
     margin: 0px;
   }
 
-
-  #quinta_seccion{
+  #quinta_seccion {
     margin-bottom: 25px;
   }
   #subtitulo_quinta_seccion {
     margin: 50px 16px;
     margin-top: 50px;
-    margin-bottom:12.5px;
+    margin-bottom: 12.5px;
     font-size: 32px;
   }
   #parrafo_quinta_seccion {
@@ -1177,10 +1191,10 @@ p,
   }
   .tarjeta_quinta_seccion {
     flex-direction: column;
-    width:100%;
+    width: 100%;
   }
   .texto_tarjeta {
-    margin:25px 25px;
+    margin: 25px 25px;
     padding: 0px;
   }
   #tarjeta1 {
@@ -1206,16 +1220,16 @@ p,
     padding: 16px 0px;
     width: 90%;
     margin: auto;
-    margin-bottom:8px;
+    margin-bottom: 8px;
   }
   #container_tarjetas img {
     margin: auto;
     border-radius: 16px;
   }
-  #sexta_seccion{
+  #sexta_seccion {
     padding: 50px 0px;
-    background-color: #F0F0F0;
-    margin-bottom:0px;
+    background-color: #f0f0f0;
+    margin-bottom: 0px;
   }
   #sexta_seccion h2 {
     margin: 0px;
@@ -1227,8 +1241,8 @@ p,
     font-size: 16px;
     font-weight: 500;
   }
-  .container_testimonio{
-    margin:auto;
+  .container_testimonio {
+    margin: auto;
   }
   #container_testimonios_foto {
     flex-direction: column;
@@ -1236,49 +1250,43 @@ p,
   }
   .container_testimonio img {
     margin: 16px 0px;
-  } 
-
-
-
-
+  }
 
   /* SECCION BONUS*/
-  .seccion_bonus{
+  .seccion_bonus {
     padding: 50px 8px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
   }
-  #cta_tercera_pagina{
+  #cta_tercera_pagina {
     background-color: none;
     background: none;
     border: none;
   }
-  .foto_suscripcion{
+  .foto_suscripcion {
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
-    width:16rem;
+    width: 16rem;
   }
   .seccion_bonus h2 {
     margin: 0px;
-    font-size:32px;
+    font-size: 32px;
     text-align: center;
   }
-.div_bonus{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.texto_parrafo_2_2 {
-  font-size: 18px;
-  font-weight: 500;
-  color: white;
-  text-align: center;
-  margin: 12.5px 16px;
-}
+  .div_bonus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .texto_parrafo_2_2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin: 12.5px 16px;
+  }
 
-
-
-  #septima_seccion{
+  #septima_seccion {
     margin-bottom: 25px;
   }
   #septima_seccion h2 {
@@ -1291,10 +1299,10 @@ p,
     flex-direction: column;
     margin: 0px;
   }
-  #container_todos_servicios h3{
+  #container_todos_servicios h3 {
     margin: 12.5px 8px;
   }
-  .container_servicio{
+  .container_servicio {
     margin-bottom: 12.5px;
   }
   #octava_seccion {
@@ -1310,9 +1318,8 @@ p,
     margin: 25px 0px;
     margin-top: 50px;
   }
-  #subtitulo_octava_seccion{
+  #subtitulo_octava_seccion {
     margin-bottom: 25px;
-
   }
   #octava_seccion p {
     width: 100%;
@@ -1323,54 +1330,50 @@ p,
   #calendario {
     margin-bottom: 25px;
   }
-  .containerBotones_octava_pagina{
+  .containerBotones_octava_pagina {
     padding-bottom: 25px;
   }
 
-  #novena_seccion{
+  #novena_seccion {
     margin-bottom: 25px;
   }
 
-  #novena_seccion h2{
+  #novena_seccion h2 {
     font-size: 28px;
     margin: 12.5px 8px;
     margin-bottom: 25px;
   }
 
   .pregunta {
-    width:95%;
+    width: 95%;
     padding: 0px;
-    margin:12.5px 8px;
+    margin: 12.5px 8px;
   }
-  .boton_pregunta{
+  .boton_pregunta {
     display: flex;
     align-items: center;
   }
-  .ver_mas{
-    padding:16px;
+  .ver_mas {
+    padding: 16px;
     padding-right: 16px;
     margin: 0px;
-
   }
 
-  .pregunta h3, .respuesta{
+  .pregunta h3,
+  .respuesta {
     font-size: 16px;
     margin: 16px;
   }
-  .pregunta h3{
+  .pregunta h3 {
     margin-left: 0px;
   }
-  #footer a img{
+  #footer a img {
     width: 50px;
   }
-  .div_menu{
+  .div_menu {
     display: none;
   }
-  .copy{
+  .copy {
     margin: 0px 8px;
   }
- 
-
-
-
-  }
+}
