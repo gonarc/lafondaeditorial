@@ -1014,6 +1014,13 @@ p,
   #banner {
     display: none;
   }
+  .ofertaExpirada{
+    width: 90%;
+  }
+  #titulo_evento_gratuito{
+    font-size: 35px;
+  }
+
   #imagen_responsive_primera_seccion {
     width: 100%;
     border-radius: 8px;
@@ -1376,4 +1383,5 @@ p,
   .copy {
     margin: 0px 8px;
   }
+  
 }
