@@ -1,4 +1,4 @@
-const ofertaFechaLimite = new Date("2024-01-21T18:37:00");
+const ofertaFechaLimite = new Date("2024-01-21T18:55:00");
 
 function actualizarTemporizador() {
   const ahora = new Date();
