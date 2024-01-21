@@ -127,8 +127,9 @@ h3 {
   align-items: center;
   width: 100%;
   background-color: black;
-  margin: 50px 0px;
-  padding: 25px 0px;
+  margin:0px 0px;
+  padding: 50px 0px;
+  padding-bottom: 65px;
 }
 .barra_oferta p {
   font-weight: 600;
@@ -304,6 +305,7 @@ p,
 
 #segunda_seccion {
   width: 100%;
+  margin-top: 50px;
   margin-bottom: 8px;
 }
 #segunda_seccion h2 {
@@ -1127,7 +1129,7 @@ p,
   #segunda_seccion {
     background-color: #f0f0f0;
     padding: 50px 0px;
-    margin-bottom: 0px;
+    margin: 0px 0px;
   }
 
   #segunda_seccion h2 {
