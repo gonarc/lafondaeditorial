@@ -208,6 +208,18 @@ p,
   border-radius: 8px;
   border: solid 1px #818181c2;
 }
+#banner iframe {
+  width: 35rem;
+  height: 27rem;
+  border-radius: 8px;
+  border: solid 1px #818181c2;
+}
+.barra_oferta img{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 8px;
+  border: solid 1px #818181c2;
+}
 #containerBotones {
   display: flex;
   justify-content: start;
@@ -1024,6 +1036,7 @@ p,
     width: 90%;
   }
   #titulo_evento_gratuito{
+    margin-bottom:25px;
     font-size: 35px;
   }
 
