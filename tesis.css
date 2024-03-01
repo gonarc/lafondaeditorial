@@ -1,6 +1,5 @@
 body {
   background: rgb(1,0,3);
-  background: linear-gradient(180deg, rgba(1,0,3,0.49343487394957986) 50%, rgba(0,0,0,0.865983893557423) 100%);
 }
 .landing-container{
   max-width: calc(1260px + 10px + 10px);
