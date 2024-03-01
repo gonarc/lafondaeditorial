@@ -1,112 +1,15 @@
 body {
-  margin: 0;
-  .fira-sans-thin {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-
-  .fira-sans-extralight {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-
-  .fira-sans-light {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  .fira-sans-regular {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .fira-sans-medium {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-
-  .fira-sans-semibold {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  .fira-sans-bold {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  .fira-sans-extrabold {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-
-  .fira-sans-black {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-
-  .fira-sans-thin-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-
-  .fira-sans-extralight-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-
-  .fira-sans-light-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-
-  .fira-sans-regular-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-
-  .fira-sans-medium-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-
-  .fira-sans-semibold-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-
-  .fira-sans-bold-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-
-  .fira-sans-extrabold-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-
-  .fira-sans-black-italic {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
+  background: rgb(1,0,3);
+  background: linear-gradient(180deg, rgba(1,0,3,0.49343487394957986) 50%, rgba(0,0,0,0.865983893557423) 100%);
+}
+.landing-container{
+  max-width: calc(1260px + 10px + 10px);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.landing-container {
+  margin: 0px;
+  padding: 0px;
 }
 
 .carousel-container {
@@ -124,7 +27,7 @@ body {
 .slide {
   flex: 0 0 100%;
   height: 300px;
-  background-size: contain; /* Cambiado a 'contain' para ajustar la imagen sin recortes */
+  background-size: contain; 
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -141,67 +44,101 @@ button {
 }
 
 .prev-btn {
-  left: 10px;
+  left: -5px;
 }
 
 .next-btn {
-  right: 10px;
+  right: 5px;
 }
 
-h1,h2,h3{
-    text-align: center;
-    margin: 24px 8px;
-    font-weight: 700;
-    text-rendering: optimizeLegibility;
+h4,
+h2,
+h3 {
+  font-family: "Fira Sans", sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin: 20px 8px;
+  text-rendering: optimizeLegibility;
+}
+h4 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+  font-size: 20px;
+}
+h2 {
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: white;
+  font-size: 30px;
+}
+h3 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 15px 8px;
+  color: white;
+  font-size: 30px;
+}
+#main-title{
+  margin: 50px 8px;
+  margin-bottom: 0px;
+}
+p {
+  font-family: "Fira Sans", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 8px 8px;
+  font-size: 1.5rem;
+}
+.p_dificultades {
+  text-align: start;
+  margin: 16px;
+  padding: 8px;
+  box-shadow: 1px 1px 8px black;
+}
+.p_aprendizaje {
+  text-align: start;
+  margin: 16px;
+  padding: 8px;
+  box-shadow: 1px 1px 8px black;
+}
+.p_aprende{
+  text-align: start;
+  margin: 16px;
+  padding: 8px;
+  box-shadow: 1px 1px 8px black;
+}
 
+.image-container {
+  width: 100%;
+  max-width: 600px; /* Ancho máximo del contenedor */
+  margin: 30px auto; /* Centrar el contenedor */
+  overflow: hidden; /* Ocultar cualquier contenido que desborde */
 }
-h1{
-    font-size: 20px;
+.first-page-image {
+  width: 80%;
+  margin: auto; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Elimina el espacio adicional debajo de la imagen */
 }
-h2{
-    font-size:30px;
-    line-height: 36px;
-    margin: 16px 8px;
+.cta-thesis {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-color: black;
 }
-h3{
-    font-size: 24px;
+#h3_a_cargo{
+  margin:15px 5px;
 }
-p{
-    text-align: center;
-    margin: 8px 8px;
-    font-size:1.5rem;
-}
-.p_dificultades{
-    text-align: start;
-    margin: 16px;
-    padding: 8px;
-    box-shadow: 1px 1px 8px black;
-}
-.p_aprendizaje{
-    text-align: start;
-    margin: 16px;
-    padding: 8px;
-    box-shadow: 1px 1px 8px black;
-}
-
-.image-container{
-    width: 100%;
-    max-width: 600px; /* Ancho máximo del contenedor */
-    margin: 0 auto; /* Centrar el contenedor */
-    overflow: hidden; /* Ocultar cualquier contenido que desborde */ 
-}
-.first-page-image{
-    width: 100%; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Elimina el espacio adicional debajo de la imagen */
-
-}
-.cta-thesis{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 25px;
-    padding: 30px;
-    border-radius: 25px;
-    background-color: blanchedalmond;
+.linkedin-link{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 25px;
+  background-color: beige;
 }
