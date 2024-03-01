@@ -141,3 +141,36 @@ p {
   padding: 25px;
   background-color: beige;
 }
+
+.primer_pagina{
+  background-image: url('texturas/marmolado_negro.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 0px;
+
+}
+.segunda_pagina{
+  background-image: url('texturas/negro_manchas_blancas.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 0px;
+
+}
+.tercer_pagina{
+  background-image: url('texturas/negro_puntitos.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 0px;
+
+}
+.cuarta_pagina{
+  background-image: url('texturas/negro_puntitos_2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 0px;
+
+}
