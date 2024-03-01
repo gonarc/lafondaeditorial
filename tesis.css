@@ -161,6 +161,7 @@ h1{
 h2{
     font-size:30px;
     line-height: 36px;
+    margin: 16px 8px;
 }
 h3{
     font-size: 24px;
@@ -194,4 +195,13 @@ p{
     height: auto; /* Mantiene la proporción de la imagen */
     display: block; /* Elimina el espacio adicional debajo de la imagen */
 
+}
+.cta-thesis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: blanchedalmond;
 }
