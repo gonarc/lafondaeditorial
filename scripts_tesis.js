@@ -52,6 +52,26 @@ document.addEventListener('DOMContentLoaded', function () {
   setTimeout(startAutomaticAnimation, 1000);
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+  const attentionButton = document.getElementById('attentionButton_2');
+
+  function playBounceAnimation() {
+      attentionButton.classList.add('bounce-animation');
+  }
+
+  function startAutomaticAnimation() {
+      setInterval(function () {
+          attentionButton.classList.remove('bounce-animation');
+          void attentionButton.offsetWidth; // Triggers reflow to restart the animation
+          playBounceAnimation();
+      }, 5000); // Cambia la animación cada 3 segundos
+  }
+
+  // Inicia la animación automáticamente después de un breve retraso (por ejemplo, 1 segundo)
+  setTimeout(startAutomaticAnimation, 1000);
+});
+
+
 
 
   // EFECTO SCROLL
