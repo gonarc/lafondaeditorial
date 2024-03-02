@@ -51,3 +51,23 @@ document.addEventListener('DOMContentLoaded', function () {
   // Inicia la animación automáticamente después de un breve retraso (por ejemplo, 1 segundo)
   setTimeout(startAutomaticAnimation, 1000);
 });
+
+
+
+  // EFECTO SCROLL
+  ScrollReveal().reveal("h4", {
+    duration: 2000,
+    origin: "bottom",
+  });
+
+  ScrollReveal().reveal("h3", {
+    duration: 2500,
+    origin: "bottom",
+    distance: "-50px",
+  });
+
+  ScrollReveal().reveal("p", {
+    duration: 2000,
+    origin: "right",
+    distance: "-100px",
+  });
