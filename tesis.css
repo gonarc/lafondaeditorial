@@ -1,5 +1,6 @@
 body {
-  background: rgb(1, 0, 3);
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0.9528186274509804) 0%, rgba(0,0,0,1) 100%);
 }
 .landing-container {
   padding-right: 10px;
@@ -75,11 +76,15 @@ h2 {
   font-size: 30px;
 }
 h3 {
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.2;
-  margin: 30px 8px;
+  margin: 30px 0px;
   color: white;
   font-size: 30px;
+  background: radial-gradient(rgba(255, 205, 0, 1) 0%, #bb9c22cf);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 #main-title {
   margin: 30px 8px;
@@ -101,14 +106,12 @@ p {
 .p_aprendizaje {
   text-align: center;
   margin: 30px 16px;
-  box-shadow: 1px 1px 8px black;
   font-size: 30px;
 }
 .p_aprende {
   text-align: center;
   margin: 16px;
   padding: 8px;
-  box-shadow: 1px 1px 8px black;
 }
 
 .image-container {
@@ -148,7 +151,8 @@ p {
   font-family: "Fira Sans", sans-serif;
   font-size: 20px;
   padding: 16px 8px;
-  margin: 0px;
+  width: 80%;
+  margin: auto;
   margin-bottom:0px;
 }
 #h3_a_cargo {
@@ -185,10 +189,23 @@ p {
 }
 .tercer_pagina {
   padding: 30px 8px;
+  padding-bottom: 0px;
 }
 
 .cuarta_pagina {
   padding: 30px 8px;
+  padding-top: 0px;
+
+}
+.container_desicion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.img_señalando{
+  width: 5rem;
 }
 
 .quinta_pagina {
@@ -227,7 +244,7 @@ span {
   width: auto;
 }
 .icon_bloqueo {
-  width: 2rem;
+  width: 3rem;
   margin: auto;
 }
 .t_item {
