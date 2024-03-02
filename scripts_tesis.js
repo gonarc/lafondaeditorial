@@ -56,10 +56,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // EFECTO SCROLL
   ScrollReveal().reveal("h4", {
-    duration: 2000,
+    duration: 4000,
     origin: "bottom",
   });
-
   ScrollReveal().reveal("h3", {
     duration: 2500,
     origin: "bottom",
