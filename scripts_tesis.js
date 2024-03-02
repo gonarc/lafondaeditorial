@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function startAutoSlide() {
       setInterval(function () {
           nextSlide();
-      }, 5000); // Cambia de slide cada 5 segundos (5000 milisegundos)
+      }, 10000); // Cambia de slide cada 5 segundos (5000 milisegundos)
   }
 
   // Agrega event listeners a los botones de "anterior" y "siguiente"
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
           attentionButton.classList.remove('bounce-animation');
           void attentionButton.offsetWidth; // Triggers reflow to restart the animation
           playBounceAnimation();
-      }, 3000); // Cambia la animación cada 3 segundos
+      }, 5000); // Cambia la animación cada 3 segundos
   }
 
   // Inicia la animación automáticamente después de un breve retraso (por ejemplo, 1 segundo)
