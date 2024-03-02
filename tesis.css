@@ -69,7 +69,7 @@ h4 {
 }
 h2 {
   line-height: 1.2;
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 30px;
   color: white;
   font-size: 30px;
@@ -145,9 +145,11 @@ p {
   );
 }
 #cta_inicio{
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
   padding: 16px 8px;
   margin: 0px;
-  margin-bottom: 8px;
+  margin-bottom:0px;
 }
 #h3_a_cargo {
   margin: 15px 5px;
