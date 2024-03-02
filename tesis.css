@@ -98,9 +98,10 @@ p {
   box-shadow: 1px 1px 8px black;
 }
 .p_aprendizaje {
-  text-align: start;
-  margin: 16px;
+  text-align: center;
+  margin: 30px 16px;
   box-shadow: 1px 1px 8px black;
+  font-size: 30px;
 }
 .p_aprende{
   text-align: center;
@@ -132,6 +133,13 @@ p {
 #h3_a_cargo{
   margin:15px 5px;
 }
+.bonus{
+  margin: 0px;
+}
+.container_bonus{
+  display: flex;
+  flex-direction: column;
+}
 .linkedin-link{
   display: flex;
   text-align: center;
@@ -141,27 +149,91 @@ p {
 }
 
 .primer_pagina{
-  background-image: url('texturas/marmolado_negro.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+
   padding: 30px 0px;
 
 }
 .segunda_pagina{
-  background-image: url('texturas/negro_manchas_blancas.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 30px 0px;
 
+  padding: 30px 8px;
+
+}
+.tercer_pagina{
+  padding: 30px 8px;
 }
 
 .cuarta_pagina{
-  background-image: url('texturas/negro_puntitos_2.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 30px 0px;
 
+  padding: 30px 8px;
+
+}
+
+.quinta_pagina{
+  padding: 30px 8px;
+}
+.septima_pagina{
+  padding: 30px 8px;
+}
+
+
+.tarjeta_dificultades{
+  display: flex;
+  flex-direction: column;
+}
+.items_dificultades{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30px;
+}
+.items_beneficios{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 8px 30px;
+  padding: 16px;
+  box-shadow: 3px 4px 8px black;
+
+}
+
+.titulo_tarjeta{
+  text-align: center;
+}
+span{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.span_beneficios{
+  width: auto;
+}
+.icon_bloqueo{
+  width: 2rem;
+  margin: auto;
+}
+.t_item{
+  text-align: center;
+  margin: auto;
+}
+.t_item_beneficios{
+  text-align: start;
+  font-size: 20px;
+  margin: 0px 16px;
+}
+.p_item{
+  text-align: center;
+  margin: 0px 0px;
+}
+
+.container_beneficios_final{
+  display: flex;
+  flex-wrap: wrap;
+}
+.tarjeta_beneficios_final{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.img_beneficios_final{
+  width: 5rem;
+  margin: auto;
 }
