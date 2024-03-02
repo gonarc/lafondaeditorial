@@ -1,9 +1,9 @@
 body {
-  background: rgb(1,0,3);
+  background: rgb(1, 0, 3);
 }
-.landing-container{
-    padding-right: 10px;
-    padding-left: 10px;
+.landing-container {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .landing-container {
   margin: 0px;
@@ -25,7 +25,7 @@ body {
 .slide {
   flex: 0 0 100%;
   height: 300px;
-  background-size: contain; 
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -65,11 +65,12 @@ h4 {
   line-height: 1.2;
   color: white;
   font-size: 20px;
+  margin: 16px 30px;
 }
 h2 {
   line-height: 1.2;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 30px;
   color: white;
   font-size: 30px;
 }
@@ -80,7 +81,7 @@ h3 {
   color: white;
   font-size: 30px;
 }
-#main-title{
+#main-title {
   margin: 30px 8px;
   margin-bottom: 0px;
 }
@@ -103,7 +104,7 @@ p {
   box-shadow: 1px 1px 8px black;
   font-size: 30px;
 }
-.p_aprende{
+.p_aprende {
   text-align: center;
   margin: 16px;
   padding: 8px;
@@ -121,119 +122,131 @@ p {
   margin: auto; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   display: block; /* Elimina el espacio adicional debajo de la imagen */
+  border: solid 5px #ffcc00c2;
+  border-radius: 8px;
 }
 .cta-thesis {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-decoration: none;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 25px;
   padding: 25px;
-  background-color: black;
+  margin: 50px 8px;
+  background: rgb(255, 205, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 205, 0, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
 }
-#h3_a_cargo{
-  margin:15px 5px;
+#cta_inicio{
+  padding: 30px 8px;
 }
-.bonus{
+#h3_a_cargo {
+  margin: 15px 5px;
+}
+.bonus {
   margin: 0px;
 }
-.container_bonus{
+.container_bonus {
   display: flex;
   flex-direction: column;
 }
 .linkedin-link{
   display: flex;
-  text-align: center;
   justify-content: center;
-  padding: 25px;
-  background-color: beige;
+  align-items: center;
+  margin: 30px;
+
+}
+.linkedin-link img {
+  width: 8rem;
 }
 
-.primer_pagina{
-
+.primer_pagina {
   padding: 30px 0px;
-
+  padding-bottom: 0px;
 }
-.segunda_pagina{
-
-  padding: 30px 8px;
-
+.segunda_pagina {
+  padding: 0px 8px;
 }
-.tercer_pagina{
+.tercer_pagina {
   padding: 30px 8px;
 }
 
-.cuarta_pagina{
-
-  padding: 30px 8px;
-
-}
-
-.quinta_pagina{
-  padding: 30px 8px;
-}
-.septima_pagina{
+.cuarta_pagina {
   padding: 30px 8px;
 }
 
+.quinta_pagina {
+  padding: 30px 8px;
+}
+.septima_pagina {
+  padding: 30px 8px;
+}
 
-.tarjeta_dificultades{
+.tarjeta_dificultades {
   display: flex;
   flex-direction: column;
 }
-.items_dificultades{
+.items_dificultades {
   display: flex;
   flex-direction: column;
   margin: 30px 30px;
 }
-.items_beneficios{
+.items_beneficios {
   display: flex;
   flex-wrap: nowrap;
-  margin: 8px 30px;
+  margin: 8px 0px;
   padding: 16px;
   box-shadow: 3px 4px 8px black;
-
 }
 
-.titulo_tarjeta{
+.titulo_tarjeta {
   text-align: center;
 }
-span{
+span {
   display: flex;
   width: 100%;
   justify-content: center;
 }
-.span_beneficios{
+.span_beneficios {
   width: auto;
 }
-.icon_bloqueo{
+.icon_bloqueo {
   width: 2rem;
   margin: auto;
 }
-.t_item{
+.t_item {
   text-align: center;
   margin: auto;
 }
-.t_item_beneficios{
+.t_item_beneficios {
   text-align: start;
-  font-size: 20px;
+  font-size: 25px;
   margin: 0px 16px;
 }
-.p_item{
+.p_item {
   text-align: center;
   margin: 0px 0px;
 }
 
-.container_beneficios_final{
+.container_beneficios_final {
   display: flex;
   flex-wrap: wrap;
 }
-.tarjeta_beneficios_final{
+.tarjeta_beneficios_final {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
 }
-.img_beneficios_final{
+.img_beneficios_final {
   width: 5rem;
   margin: auto;
 }
