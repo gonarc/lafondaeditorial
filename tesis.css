@@ -35,7 +35,8 @@ button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 20px;
+  font-weight: 900;
+  font-size: 50px;
   background: none;
   border: none;
   cursor: pointer;
@@ -44,10 +45,12 @@ button {
 
 .prev-btn {
   left: -5px;
+  color: #ffcc00c2;
 }
 
 .next-btn {
   right: 5px;
+  color: #ffcc00c2;
 }
 
 h4,
@@ -128,6 +131,57 @@ p {
   border: solid 5px #ffcc00c2;
   border-radius: 8px;
 }
+.attention-btn {
+  display: inline-block;
+  padding: 20px 40px;
+  background: rgb(255, 205, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 205, 0, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.attention-btn:hover {
+  background-color: #2980b9;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-20px);
+  }
+  60% {
+      transform: translateY(-10px);
+  }
+}
+
+.bounce-animation {
+  animation: bounce 1s ease-in-out;
+}
+
+.boton_cta_animacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
 .cta-thesis {
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
