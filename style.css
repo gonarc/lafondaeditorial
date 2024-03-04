@@ -6,6 +6,9 @@ body {
 h3{
   text-align: center;
 }
+h5{
+  text-align: center;
+}
 /* Agrega estilos según tus preferencias */
 .ofertaExpirada {
   padding: 16px 0px;
