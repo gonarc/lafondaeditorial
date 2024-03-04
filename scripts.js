@@ -52,23 +52,35 @@ document.addEventListener("DOMContentLoaded", function () {
     menu2.style.opacity = "0";
   });
 
+
+
   // EFECTO SCROLL
-  ScrollReveal().reveal(".aparece_en", {
+  ScrollReveal().reveal("h2", {
     duration: 2000,
     origin: "bottom",
+    distance: "-50px",
   });
 
-  ScrollReveal().reveal(".parrafo", {
+  ScrollReveal().reveal("p", {
     duration: 2500,
     origin: "bottom",
     distance: "-50px",
   });
+  ScrollReveal().reveal(".tarjeta_quinta_seccion", {
+    duration: 2000,
+    origin: "left",
+    distance: "100px",
+  });
+
 
   ScrollReveal().reveal(".pregunta", {
     duration: 2000,
     origin: "right",
     distance: "-100px",
   });
+
+
+
 
   // Efecto acordeón para preguntas frecuentes
   const preguntas = document.querySelectorAll(".pregunta");
@@ -104,6 +116,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
 document.addEventListener("DOMContentLoaded", function () {
   const carousel = document.querySelector(".carousel");
   const prevBtn = document.querySelector(".prev-btn");
