@@ -1,3 +1,38 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const carousel = document.querySelector(".carousel");
+  const prevBtn = document.querySelector(".prev-btn");
+  const nextBtn = document.querySelector(".next-btn");
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    carousel.style.transform = `translateX(${-index * 100}%)`;
+  }
+
+  function prevSlide() {
+    currentIndex =
+      (currentIndex - 1 + carousel.children.length) % carousel.children.length;
+    showSlide(currentIndex);
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % carousel.children.length;
+    showSlide(currentIndex);
+  }
+
+  function startAutoSlide() {
+    setInterval(function () {
+      nextSlide();
+    }, 20000); // Cambia de slide cada 20 segundos (20000 milisegundos)
+  }
+
+  // Agrega event listeners a los botones de "anterior" y "siguiente"
+  prevBtn.addEventListener("click", prevSlide);
+  nextBtn.addEventListener("click", nextSlide);
+
+  // Inicia automáticamente el cambio de slide cada 5 segundos
+  startAutoSlide();
+});
+
 const ofertaFechaLimite = new Date("2024-01-21T18:55:00");
 
 function actualizarTemporizador() {
@@ -10,23 +45,30 @@ function actualizarTemporizador() {
     document.getElementById("temporizadorContainer").style.display = "none";
   } else {
     const dias = Math.floor(tiempoRestante / (1000 * 60 * 60 * 24));
-    const horas = Math.floor((tiempoRestante % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutos = Math.floor((tiempoRestante % (1000 * 60 * 60)) / (1000 * 60));
+    const horas = Math.floor(
+      (tiempoRestante % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    const minutos = Math.floor(
+      (tiempoRestante % (1000 * 60 * 60)) / (1000 * 60)
+    );
     const segundos = Math.floor((tiempoRestante % (1000 * 60)) / 1000);
 
     // Actualiza los elementos del temporizador
     document.getElementById("numero_temporizador_dias").innerHTML = `${dias}`;
     document.getElementById("numero_temporizador_horas").innerHTML = `${horas}`;
-    document.getElementById("numero_temporizador_minutos").innerHTML = `${minutos}`;
-    document.getElementById("numero_temporizador_segundos").innerHTML = `${segundos}`;
+    document.getElementById(
+      "numero_temporizador_minutos"
+    ).innerHTML = `${minutos}`;
+    document.getElementById(
+      "numero_temporizador_segundos"
+    ).innerHTML = `${segundos}`;
   }
 }
 
 // Actualizar el temporizador cada segundo
 setInterval(actualizarTemporizador, 1000);
 
-
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("DOMContentLoaded", function () {
   var menuHamburguesa = document.getElementById("id-icon-nav");
   var abrirMenu = document.getElementById("id-container-nav-r");
   var cerrarMenu = document.querySelector(".container-nav-r");
@@ -64,31 +106,34 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // Efecto acordeón para preguntas frecuentes
-  const preguntas = document.querySelectorAll('.pregunta');
+  const preguntas = document.querySelectorAll(".pregunta");
 
   preguntas.forEach(function (pregunta) {
-    const botonVer = pregunta.querySelector('.ver_mas');
-    const respuesta = pregunta.querySelector('.respuesta');
+    const botonVer = pregunta.querySelector(".ver_mas");
+    const respuesta = pregunta.querySelector(".respuesta");
 
-    botonVer.addEventListener('click', function () {
-      respuesta.style.display = (respuesta.style.display === 'none' || respuesta.style.display === '') ? 'block' : 'none';
+    botonVer.addEventListener("click", function () {
+      respuesta.style.display =
+        respuesta.style.display === "none" || respuesta.style.display === ""
+          ? "block"
+          : "none";
     });
   });
 
   // Scroll smooth para enlaces internos
-  const scrollLinks = document.querySelectorAll('.scroll-link');
+  const scrollLinks = document.querySelectorAll(".scroll-link");
 
-  scrollLinks.forEach(link => {
-    link.addEventListener('click', function (e) {
+  scrollLinks.forEach((link) => {
+    link.addEventListener("click", function (e) {
       e.preventDefault();
 
-      const targetId = this.getAttribute('data-scroll-target');
+      const targetId = this.getAttribute("data-scroll-target");
       const targetElement = document.querySelector(targetId);
 
       if (targetElement) {
         window.scrollTo({
           top: targetElement.offsetTop,
-          behavior: 'smooth'
+          behavior: "smooth",
         });
       }
     });

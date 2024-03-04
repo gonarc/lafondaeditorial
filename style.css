@@ -4,17 +4,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 /* Agrega estilos según tus preferencias */
-.ofertaExpirada{
-  padding:16px 0px;
-  background: radial-gradient(#79766f, #303030);
+.ofertaExpirada {
+  padding: 16px 0px;
   border-radius: 16px;
   display: none;
   text-align: center;
   margin-top: 20px;
-  width:100%;
+  width: 100%;
 }
-.titulo_oferta_expirada{
-  font-size:30px;
+.titulo_oferta_expirada {
+  font-size: 30px;
   color: white;
   margin: 0px;
 }
@@ -127,7 +126,7 @@ h3 {
   align-items: center;
   width: 100%;
   background-color: black;
-  margin:0px 0px;
+  margin: 0px 0px;
   padding: 50px 0px;
   padding-bottom: 65px;
 }
@@ -135,10 +134,10 @@ h3 {
   font-weight: 600;
   margin: 12.5px;
   text-align: center;
-  font-size:18px;
+  font-size: 18px;
   color: white;
 }
-#titulo_evento_gratuito{
+#titulo_evento_gratuito {
   font-size: 40px;
 }
 #primera_seccion {
@@ -214,7 +213,7 @@ p,
   border-radius: 8px;
   border: solid 1px #818181c2;
 }
-.barra_oferta img{
+.barra_oferta img {
   width: 15rem;
   height: 15rem;
   border-radius: 8px;
@@ -474,7 +473,7 @@ p,
   width: 40%;
   padding: 8px;
   margin: 16px 0px;
-  background-color:#c0bbaf21;
+  background-color: #c0bbaf21;
 }
 
 .texto_tarjeta {
@@ -512,11 +511,14 @@ p,
 /*sexta_seccion*/
 #sexta_seccion {
   width: 100%;
-  margin-bottom: 60px;
+  background: radial-gradient(#0e0e0e, #000000);
+  padding: 12.5px 0px;
+  padding-top: 12px;
+  margin-bottom:0px;
 }
 #sexta_seccion h2 {
   font-size: 50px;
-  margin: 60px 50px;
+  margin: 30px 50px;
   margin-bottom: 25px;
   font-weight: 800;
   background: radial-gradient(#c0bbaf, #303030);
@@ -554,6 +556,53 @@ p,
   margin: 0px;
   border-radius: 8px;
   z-index: 1; /* Asegura que el párrafo esté encima de la imagen */
+}
+.carousel-container {
+  position: relative;
+  width: 80%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+  height: 300px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 900;
+  font-size: 50px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.prev-btn {
+  left: -5px;
+  background: radial-gradient(#c0bbaf, #303030);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.next-btn {
+  right: 5px;
+  background: radial-gradient(#c0bbaf, #303030);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .container_testimonio:hover .testimonio {
@@ -795,7 +844,7 @@ p,
   margin-bottom: 25px;
   height: 100px;
 }
-.contactos a{
+.contactos a {
   text-decoration: none;
 }
 #menu_footer {
@@ -1032,11 +1081,11 @@ p,
   #banner {
     display: none;
   }
-  .ofertaExpirada{
+  .ofertaExpirada {
     width: 90%;
   }
-  #titulo_evento_gratuito{
-    margin-bottom:25px;
+  #titulo_evento_gratuito {
+    margin-bottom: 25px;
     font-size: 35px;
   }
 
@@ -1202,14 +1251,14 @@ p,
     margin-bottom: 25px;
   }
   #subtitulo_quinta_seccion {
-    margin: 50px 16px;
+    margin: 50px 8px;
     margin-top: 50px;
     margin-bottom: 12.5px;
     font-size: 32px;
   }
   #parrafo_quinta_seccion {
     margin: 12.5px 16px;
-    margin-bottom: 25px;
+    margin-bottom:0px;
   }
   #container_tarjetas {
     flex-direction: column;
@@ -1284,8 +1333,6 @@ p,
     margin-bottom: 0px;
   }
   #cta_tercera_pagina {
-    background-color: none;
-    background: none;
     border: none;
   }
   .foto_suscripcion {
@@ -1402,5 +1449,4 @@ p,
   .copy {
     margin: 0px 8px;
   }
-  
 }
