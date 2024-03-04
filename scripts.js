@@ -1,38 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const carousel = document.querySelector(".carousel");
-  const prevBtn = document.querySelector(".prev-btn");
-  const nextBtn = document.querySelector(".next-btn");
-  let currentIndex = 0;
-
-  function showSlide(index) {
-    carousel.style.transform = `translateX(${-index * 100}%)`;
-  }
-
-  function prevSlide() {
-    currentIndex =
-      (currentIndex - 1 + carousel.children.length) % carousel.children.length;
-    showSlide(currentIndex);
-  }
-
-  function nextSlide() {
-    currentIndex = (currentIndex + 1) % carousel.children.length;
-    showSlide(currentIndex);
-  }
-
-  function startAutoSlide() {
-    setInterval(function () {
-      nextSlide();
-    }, 20000); // Cambia de slide cada 20 segundos (20000 milisegundos)
-  }
-
-  // Agrega event listeners a los botones de "anterior" y "siguiente"
-  prevBtn.addEventListener("click", prevSlide);
-  nextBtn.addEventListener("click", nextSlide);
-
-  // Inicia automáticamente el cambio de slide cada 5 segundos
-  startAutoSlide();
-});
-
 const ofertaFechaLimite = new Date("2024-01-21T18:55:00");
 
 function actualizarTemporizador() {
@@ -138,4 +103,38 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const carousel = document.querySelector(".carousel");
+  const prevBtn = document.querySelector(".prev-btn");
+  const nextBtn = document.querySelector(".next-btn");
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    carousel.style.transform = `translateX(${-index * 100}%)`;
+  }
+
+  function prevSlide() {
+    currentIndex =
+      (currentIndex - 1 + carousel.children.length) % carousel.children.length;
+    showSlide(currentIndex);
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % carousel.children.length;
+    showSlide(currentIndex);
+  }
+
+  function startAutoSlide() {
+    setInterval(function () {
+      nextSlide();
+    }, 20000); // Cambia de slide cada 20 segundos (20000 milisegundos)
+  }
+
+  // Agrega event listeners a los botones de "anterior" y "siguiente"
+  prevBtn.addEventListener("click", prevSlide);
+  nextBtn.addEventListener("click", nextSlide);
+
+  // Inicia automáticamente el cambio de slide cada 5 segundos
+  startAutoSlide();
 });
