@@ -231,7 +231,7 @@ p {
 
 }
 .linkedin-link img {
-  width: 8rem;
+  width: 5rem;
 }
 
 .primer_pagina {
@@ -332,4 +332,30 @@ span {
 
 .arrancamos{
   margin: 50px 0px;
+}
+
+
+
+/*RESPONSIVE DESKTOP*/
+@media only screen and (min-width: 768px) {
+  .container_descubriras{
+    margin: auto;
+    width: 50%;
+  }
+  .container_dificultades{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+  }
+  .items_dificultades{
+    width: 50%;
+  }
+  .primer_pagina, .segunda_pagina, .cuarta_pagina, .quinta_pagina, .septima_pagina{
+    width: 80%;
+    margin: auto;
+  }
+
+
 }
